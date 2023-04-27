@@ -18,4 +18,101 @@ tlačítko twitter          #1da1f2
 body {
   background-color: #bdc3c7;
 }
-
+.hlavicka {
+  position: relative;
+}
+body {
+  margin: 50px 50px;
+}
+.jmeno {
+ font-family:'Montserrat', sans-serif;
+ font-weight: bold;
+ padding: 10px 20px;
+}
+ .logo {
+  background-color: #b92e81;
+  color: white;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  left: 220px;
+  bottom: -15px;
+}
+.profil {
+  height: 800px;
+  width: 300px;
+  background-color: #31363b;
+  color: white;
+  box-shadow: black 6px 6px 10px;
+}
+.foto {
+  width: 300px;
+  height: auto;
+}
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px 20px;
+  line-height: 2,5;
+  color: #bdc3c7;
+  font-weight: bold;
+  font-size: large;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  border-spacing: 0;
+}
+a {
+  color: #bdc3c7;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.portfolio {
+  display: block;
+  text-align: center;
+  border-top: 0.5px solid grey;
+  border-bottom: 0.5px solid grey;
+}
+.portfolio a {
+  display: block;
+  padding: 15px 15px;
+}
+.facebook,
+.twitter {
+  display: inline-block;
+  text-align: center;
+}
+.twitter {
+  border-left: 1px solid grey;
+}
+.facebook a {
+  display: inline-block;
+  padding: 15px 26px;
+}
+.twitter a {
+  display: inline-block;
+  padding: 15px 38px;
+}
+.portfolio a:hover,
+.portfolio a:focus,
+.portfolio a:active {
+  background-color: #e74c3c;
+  color: white;
+}
+.facebook a:hover,
+.facebook a:focus,
+.facebook a:active {
+  background-color: #3b5998;
+  color: white;
+}
+.twitter a:hover,
+.twitter a:focus,
+.twitter a:active {
+  background-color: #1da1f2;
+  color: white;
+}
